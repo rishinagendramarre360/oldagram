@@ -1,0 +1,129 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    background: #F5F5F5;
+    margin: 0;
+}
+
+.logo {
+    width: 127px;
+    height: 34px;
+    margin-left: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+} 
+
+.logo-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 12px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    border-top: 1px solid #C6C6C6;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+header,section {
+    width: 375px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-im {
+    width: 100%;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.acc-name {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.acc-adr {
+    color: #000000;
+    font-size: 12px;
+}
+
+.acc {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+.acc-det {
+    margin-left: 10px;
+}
+
+.like {
+    width: 21px;
+    height: 20px;
+}
+
+.like:hover,
+.comment:hover,
+.share:hover {
+    opacity: 0.5;
+}
+
+.comment {
+    width: 18.65px;
+}
+
+.share {
+    width: 20px;
+    height: 18.65px;
+}
+
+.display-likes {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.desc {
+    color: #000000;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.activity {
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-likes,.desc {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+
