@@ -126,4 +126,8 @@ span {
     margin-top: 0;
 }
 
+.sec-2 {
+    align-self: flex-start;
+}
+
 
